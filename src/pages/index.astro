@@ -1,16 +1,72 @@
 ---
-
+import "../styles/global.css";
+import NavLayout from "../layouts/NavLayout.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import FooterLayout from "../layouts/FooterLayout.astro";
+import HeaderImg from "../components/HeaderImg.astro";
+import Changelog from "../components/Changelog.astro";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
+<MainLayout name="body" title="shezza's zone" />
 	<body>
-		<h1>Astro</h1>
+		<HeaderImg></HeaderImg>
+		<div id="container">
+			<div id="nav-box" class="section-box cont1">
+				<NavLayout />
+			</div>
+			<div id="main-box" class="section-box cont2">
+				<div class="section-title">
+					VIBE BASED ZONE
+				</div>
+				<div class="content-box">
+					<p>
+						I'm experimenting with <a href="https://astro.build/">Astro Build</a> at the moment so my site will be bare bones for a little...."construction zone dot gif" etc
+					</p>
+				</div>
+			</div>
+			<div id="cwcr-box" class="section-box cont3">
+				<div class="section-title">
+					cw.cr ✿:
+				</div>
+				<div class="content-box">
+					<ul>
+						<li>🕮  Basara</li>
+						<li>🕮  Monster</li>
+						<li>📺 Fullmetal Alchemist: Brotherhood (rw)</li>
+						<li>📺 Monster</li>
+						<li>📺 Frieren: Beyond Journey's end</li>
+						<li>📺 Dungeon Meshi</li>
+						<li>📺 Yu Yu Hakusho</li>
+					</ul>
+				</div>
+			</div>
+			<div id="changelog-box" class="section-box cont4">
+				<Changelog />
+			</div>
+			<FooterLayout credittxt="bg image from freepik" creditlink="https://www.freepik.com/vectors/background"/>
+		</div>
 	</body>
-</html>
+<style>
+	body {
+		background-image: url('/images/indexbg.jpg');
+	}
+	#container{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 5, 1fr);
+		grid-template-rows: repeat(2, 50%);
+		grid-gap: 0.5em 0.5em;
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+	.cont1{
+		grid-area: 1 / 1 / 3 / 1;
+	}
+	.cont2{
+		grid-area: 1 / 2 / 1 / 5;
+	}
+	.cont3{
+		grid-area: 2 / 2 / 2 / 2;
+	}
+	.cont4{
+		grid-area: 2 / 3 / 2 / 5;
+	}
+</style>

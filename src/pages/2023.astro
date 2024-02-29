@@ -1,0 +1,43 @@
+---
+import "../styles/global.css";
+import NavLayout from "../layouts/NavLayout.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import FooterLayout from "../layouts/FooterLayout.astro";
+import Twothreereviews from "../layouts/twothreereviews.astro";
+---
+<MainLayout name="body" title="2023 reads and watches" />
+	<body>
+		<div id="container">
+			<div id="nav-box" class="section-box cont1">
+				<NavLayout />
+			</div>
+			<div id="main-box" class="section-box cont2">
+				<Twothreereviews />
+				<div class="content-box">
+					
+				</div>
+			</div>
+			<FooterLayout credittxt="bg image from sadgrl.online" creditlink="https://sadgrl.online/webmastery/downloads/tiledbgs"/>
+		</div>
+	</body>
+<style>
+	body {
+		background-image: url('/images/indexbg.jpg');
+	}
+	#container{
+        margin-top: 4em;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr, 1fr, 1fr;
+		grid-gap: 0.5em 0.5em;
+		margin: 3em;
+	}
+	.cont1{
+		grid-area: 2 / 1 / 4 / 1;
+        height: fit-content;
+        padding-bottom: 2em;
+	}
+	.cont2{
+		grid-area: 2 / 2 / 2 / 5;
+	}
+</style>

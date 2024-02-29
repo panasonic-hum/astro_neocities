@@ -1,0 +1,24 @@
+---
+const { creditlink } = Astro.props;
+const { credittxt } = Astro.props;
+---
+<footer class="footer">
+    <p>
+        est oct 2021
+        <br>
+        last updated 2024
+        <br>
+        <a href={creditlink}>
+            {credittxt}
+        </a>
+    </p>
+</footer>
+
+<style>
+    .footer{
+        background-color: white;
+        padding: 0.5rem;
+        justify-content: center;
+        grid-area: 4 / 3 / 4 / 3;
+    }
+</style>
