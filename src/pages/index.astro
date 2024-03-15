@@ -51,22 +51,31 @@ import Changelog from "../components/Changelog.astro";
 	}
 	#container{
 		display: grid;
-		grid-template-columns: repeat(auto-fit, 5, 1fr);
-		grid-template-rows: repeat(2, 50%);
-		grid-gap: 0.5em 0.5em;
-		margin-left: 5em;
-		margin-right: 5em;
+		grid-template-areas: "nav main main" "nav cwcr changelog" ". footer .";
+		margin-left: 2rem;
+		margin-right: 2rem;
+		grid-gap: 0.5em;
 	}
 	.cont1{
-		grid-area: 1 / 1 / 3 / 1;
+		grid-area: nav;
 	}
 	.cont2{
-		grid-area: 1 / 2 / 1 / 5;
+		grid-area: main;
 	}
 	.cont3{
-		grid-area: 2 / 2 / 2 / 2;
+		grid-area: cwcr;
 	}
 	.cont4{
-		grid-area: 2 / 3 / 2 / 5;
+		grid-area: changelog;
+		align-self: start;
+	}
+	@media screen and (max-width: 740px) {
+    	#container {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		display: grid;
+		grid-template-areas: "nav" "main" "cwcr" "changelog" "footer";
+		grid-gap: 0.5em;
+    	}
 	}
 </style>
