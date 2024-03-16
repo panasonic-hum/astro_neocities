@@ -18,7 +18,15 @@ const { credittxt } = Astro.props;
     .footer{
         background-color: white;
         padding: 0.5rem;
-        justify-content: center;
         grid-area: footer;
+        justify-self: start;
+        max-width: fit-content;
+        border: 2px solid black;
+        border-radius: 12px;
+    }
+    @media screen and (max-width: 740px) {
+        .footer{
+		justify-self: center;
+	    }
     }
 </style>
