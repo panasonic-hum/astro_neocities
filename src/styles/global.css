@@ -26,6 +26,8 @@ h2, h4, h6 {
     scrollbar-color: var(--mid-color) var(--lt-color);
     scrollbar-width: thin;
     overflow-y: auto;
+    filter: drop-shadow(7px 7px 0 #28100ce1);
+		border-radius: 0.5rem;
   }
   .section-title {
     text-align:center;

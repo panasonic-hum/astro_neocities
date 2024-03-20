@@ -5,15 +5,33 @@ import MainLayout from "../layouts/MainLayout.astro";
 import FooterLayout from "../layouts/FooterLayout.astro";
 import HeaderImg from "../components/HeaderImg.astro";
 import Changelog from "../components/Changelog.astro";
+import { Icon } from 'astro-icon/components';
 ---
 <MainLayout name="body" title="shezza's zone" />
 	<body>
 		<HeaderImg></HeaderImg>
 		<div id="container">
-			<div id="nav-box" class="section-box cont1">
+			<nav id="nav-box" class="section-box cont1">
 				<NavLayout />
+			</nav>
+			<div id="about-box" class="section-box cont5">
+				<div class="section-title">
+					about me
+				</div>
+				<div class="content-box txt">
+					<p>
+						<Icon name="icon-park-outline:code-one" /> in my 30s <br>
+						<Icon name="icon-park-outline:code-one" /> she/her <br>
+						<Icon name="icon-park-outline:code-one" /> dabble in css/html <br>
+						<Icon name="icon-park-outline:code-one" /> learning python as needed <br>
+						<Icon name="icon-park-outline:code-one" /> amateur editor (twitter fancams) <br>
+						<Icon name="icon-park-outline:code-one" /> sports fan <br>
+						<Icon name="icon-park-outline:code-one" /> outdoor enjoyer <br>
+						<Icon name="icon-park-outline:code-one" /> terminally online <br>
+					</p>
+				</div>
 			</div>
-			<div id="main-box" class="section-box cont2">
+			<main id="main-box" class="section-box cont2">
 				<div class="section-title">
 					VIBE BASED ZONE
 				</div>
@@ -21,12 +39,13 @@ import Changelog from "../components/Changelog.astro";
 					<p>
 						I'm experimenting with <a href="https://astro.build/">Astro Build</a> at the moment so my site will be bare bones for a little...."construction zone dot gif" etc
 						<br>
+						<br>
 						I'm using this site to become more familiar with frontend development and as a space to write more! So far I've written about things I watch, read, or listen to, but I'd
 						like to expand more from basic reviews to more fleshed out thoughts. HOPEFULLY I make good progress on both of these goals, but frontend dev is a lot of work and javascript
 						is a bit daunting, but I will keep at it.
 					</p>
 				</div>
-			</div>
+			</main>
 			<div id="cwcr-box" class="section-box cont3">
 				<div class="section-title">
 					cw.cr ✿:
@@ -35,6 +54,7 @@ import Changelog from "../components/Changelog.astro";
 					<ul>
 						<li>🕮  Silver Spoon</li>
 						<li>🕮  Monster</li>
+						<li>🕮  Ping Pong</li>
 						<li>📺 Fullmetal Alchemist: Brotherhood (rw)</li>
 						<li>📺 Monster</li>
 						<li>📺 Frieren: Beyond Journey's end</li>
@@ -57,11 +77,12 @@ import Changelog from "../components/Changelog.astro";
 	}
 	#container{
 		display: grid;
-		grid-template-areas: "nav main main" "nav cwcr changelog" ". . footer";
-		justify-content: center;
-		grid-gap: 0.5em;
-		grid-template-columns: min-content min-content auto;
-		max-width: 0.75fr;
+		grid-template-areas: "nav nav nav" "main main main" "about cwcr changelog" ". footer .";
+		grid-gap: 1rem;
+		grid-template-columns: auto min-content auto;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.cont1{
 		grid-area: nav;
@@ -69,7 +90,6 @@ import Changelog from "../components/Changelog.astro";
 	}
 	.cont2{
 		grid-area: main;
-		max-width: 1100px;
 	}
 	.cont3{
 		grid-area: cwcr;
@@ -78,13 +98,19 @@ import Changelog from "../components/Changelog.astro";
 	.cont4{
 		grid-area: changelog;
 	}
+	.cont5{
+		grid-area: about;
+	}
+	.txt{
+		font-size: 1em;
+	}
 	@media screen and (max-width: 740px) {
     	#container {
 		margin-left: 0.5em;
 		margin-right: 0.5em;
 		display: grid;
 		grid-template-areas: "nav" "main" "cwcr" "changelog" "footer";
-		grid-gap: 0.5em;
+		grid-gap: 1rem;
 	}
 	.cont1, .cont2, .cont3, .cont4{
 		max-width: revert;
