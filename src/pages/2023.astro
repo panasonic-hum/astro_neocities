@@ -26,12 +26,17 @@ import Twothreereviews from "../layouts/twothreereviews.astro";
 	}
 	#container{
         margin-top: 4em;
-		margin: 3em;
+		display: grid;
+		justify-content: center;
+		grid-template-areas: "nav main"  ". footer";
+		grid-gap: 1rem;
 	}
 	.cont1{
         height: fit-content;
         padding-bottom: 2em;
+		grid-area: nav;
 	}
 	.cont2{
+		grid-area: main;
 	}
 </style>
