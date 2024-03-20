@@ -20,14 +20,14 @@ import { Icon } from 'astro-icon/components';
 				</div>
 				<div class="content-box txt">
 					<p>
-						<Icon name="icon-park-outline:code-one" /> in my 30s <br>
-						<Icon name="icon-park-outline:code-one" /> she/her <br>
-						<Icon name="icon-park-outline:code-one" /> dabble in css/html <br>
+						<Icon name="icon-park-outline:config" /> in my 30s <br>
+						<Icon name="icon-park-outline:people-left" /> she/her <br>
+						<Icon name="icon-park-outline:code-one" /> goof around in css/html <br>
+						<Icon name="icon-park-outline:code-one" /> hope to learn js <br>
 						<Icon name="icon-park-outline:code-one" /> learning python as needed <br>
-						<Icon name="icon-park-outline:code-one" /> amateur editor (twitter fancams) <br>
-						<Icon name="icon-park-outline:code-one" /> sports fan <br>
-						<Icon name="icon-park-outline:code-one" /> outdoor enjoyer <br>
-						<Icon name="icon-park-outline:code-one" /> terminally online <br>
+						<Icon name="icon-park-outline:baseball-bat" /> sports fan <br>
+						<Icon name="icon-park-outline:thunderstorm" /> outdoor enjoyer <br>
+						<Icon name="icon-park-outline:chip" /> terminally online <br>
 					</p>
 				</div>
 			</div>
@@ -55,13 +55,13 @@ import { Icon } from 'astro-icon/components';
 						<li>🕮  Silver Spoon</li>
 						<li>🕮  Monster</li>
 						<li>🕮  Ping Pong</li>
-						<li>📺 Fullmetal Alchemist: Brotherhood (rw)</li>
-						<li>📺 Monster</li>
-						<li>📺 Frieren: Beyond Journey's end</li>
-						<li>📺 Dungeon Meshi</li>
-						<li>📺 Yu Yu Hakusho</li>
-						<li>📺 Lodge 49</li>
-						<li>📺 Shogun</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Fullmetal Alchemist: Brotherhood (rw)</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Monster</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Frieren: Beyond Journey's end</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Dungeon Meshi</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Yu Yu Hakusho</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Lodge 49</li>
+						<li><Icon name="icon-park-outline:tv-one" /> Shogun</li>
 					</ul>
 				</div>
 			</div>
@@ -77,12 +77,12 @@ import { Icon } from 'astro-icon/components';
 	}
 	#container{
 		display: grid;
-		grid-template-areas: "nav nav nav" "main main main" "about cwcr changelog" ". footer .";
 		grid-gap: 1rem;
-		grid-template-columns: auto min-content auto;
 		max-width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;
+		grid-template-areas: "nav nav nav" "main main main" "about cwcr changelog" ". footer .";
+		grid-template-columns: auto min-content auto;
 	}
 	.cont1{
 		grid-area: nav;
@@ -104,16 +104,23 @@ import { Icon } from 'astro-icon/components';
 	.txt{
 		font-size: 1em;
 	}
+	@media screen and (min-width: 740px) and (max-width: 1360px) {
+    	#container {
+			display: grid;
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			max-width: 100%;
+			grid-template-areas: "nav nav" "main main" "about cwcr" "changelog changelog" ". footer";
+			grid-template-columns: auto auto;
+		}
+	}
 	@media screen and (max-width: 740px) {
     	#container {
-		margin-left: 0.5em;
-		margin-right: 0.5em;
-		display: grid;
-		grid-template-areas: "nav" "main" "cwcr" "changelog" "footer";
-		grid-gap: 1rem;
-	}
-	.cont1, .cont2, .cont3, .cont4{
-		max-width: revert;
+			display: grid;
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			max-width: 100%;
+			grid-template-areas: "nav" "main" "about" "cwcr" "changelog" "footer";
 	}
 	}
 </style>
