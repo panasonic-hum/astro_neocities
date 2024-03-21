@@ -28,8 +28,11 @@ import Twothreereviews from "../layouts/twothreereviews.astro";
         margin-top: 4em;
 		display: grid;
 		justify-content: center;
-		grid-template-areas: "nav main"  ". footer";
+		grid-template-areas: "nav" "main" "footer";
 		grid-gap: 1rem;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.cont1{
         height: fit-content;
@@ -38,5 +41,15 @@ import Twothreereviews from "../layouts/twothreereviews.astro";
 	}
 	.cont2{
 		grid-area: main;
+	}
+	@media screen and (max-width: 740px) {
+    	#container {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		display: grid;
+		grid-template-areas: "nav" "main" "footer";
+		grid-gap: 1rem;
+		max-width: 100%;
+	}
 	}
 </style>
