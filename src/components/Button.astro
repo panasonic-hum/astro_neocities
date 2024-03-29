@@ -1,0 +1,32 @@
+---
+const btnVarieties = {
+    default: "btn--default",
+    icon: "btn--icon"
+}
+
+const {classes, variety="default", isBordered, background="#EF7C8E", color="#FAE8E0", ...rest} = Astro.props;
+---
+<button class:list={[classes, btnVarieties[variety], {border: isBordered}]} {...rest }>
+    <slot />
+</button>
+<style define:vars={{
+    background,
+    color
+}}>
+    .btn--default{
+        font: inherit;
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        padding: 4px 16px;
+        background: var(--background);
+        color: var(--color);
+    }
+    .small{
+    }
+    .border{
+        border: solid;
+    }
+</style>
