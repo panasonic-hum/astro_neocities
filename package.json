@@ -10,12 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/node": "^8.2.5",
     "astro": "^4.5.5",
     "astro-icon": "^1.1.0",
-    "postcss": "^8.4.37",
     "postcss-preset-env": "^9.5.2"
   },
   "devDependencies": {
-    "@iconify-json/icon-park-outline": "^1.1.15"
+    "@iconify-json/icon-park-outline": "^1.1.15",
+    "postcss": "^8.4.38",
+    "postcss-custom-properties": "^13.3.6",
+    "postcss-mixins": "^10.0.0"
   }
 }

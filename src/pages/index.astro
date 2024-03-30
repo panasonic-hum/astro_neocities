@@ -76,11 +76,6 @@ import { Icon } from 'astro-icon/components';
 		background-image: url('/images/indexbg.jpg');
 	}
 	#container{
-		display: grid;
-		grid-gap: 1rem;
-		max-width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
 		grid-template-areas: "nav nav nav" "main main main" "about cwcr changelog" ". footer .";
 		grid-template-columns: auto min-content auto;
 	}
@@ -106,20 +101,12 @@ import { Icon } from 'astro-icon/components';
 	}
 	@media screen and (min-width: 740px) and (max-width: 1360px) {
     	#container {
-			display: grid;
-			margin-left: 0.5em;
-			margin-right: 0.5em;
-			max-width: 100%;
 			grid-template-areas: "nav nav" "main main" "about cwcr" "changelog changelog" ". footer";
 			grid-template-columns: auto auto;
 		}
 	}
 	@media screen and (max-width: 740px) {
     	#container {
-			display: grid;
-			margin-left: 0.5em;
-			margin-right: 0.5em;
-			max-width: 100%;
 			grid-template-areas: "nav" "main" "about" "cwcr" "changelog" "footer";
 	}
 	}

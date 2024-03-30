@@ -1,8 +1,8 @@
 ---
 title: Planetes
 type: manga
-layout: '../../components/ReviewCard.astro'
 year: 2024
+shortened: planetes
 ---
 
 ## Planetes
@@ -14,4 +14,4 @@ I think my two biggest stumbling blocks is that, despite liking sci-fi, I get ea
 ### Misc notes
 
 * too busy complaining about space travel losing its novelty to me that I didn't mention the human focused stories in Planetes, but that was my favorite part I just didn't have much to say
-*I liked the ending! I think some thought it as abrupt but I disagree  
+* I liked the ending! I think some thought it as abrupt but I disagree  
