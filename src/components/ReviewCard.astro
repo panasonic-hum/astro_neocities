@@ -1,11 +1,14 @@
 ---
-
+const {review} = Astro.props;
+const reviewmd = review.compiledContent();
 ---
 
-<article class="section-box cont1">
+
+<article id={review.frontmatter.shortened} class="section-box cont1">
     <div class="section-title">
+        {review.frontmatter.title}
     </div>
-    <div class="content-box">
-        blah<br>placeholder
+    <div class="content-box"> 
+        <Fragment set:html={reviewmd} />
     </div>
 </article>

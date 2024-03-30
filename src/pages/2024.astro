@@ -4,6 +4,11 @@ import NavLayout from "../layouts/NavLayout.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 import FooterLayout from "../layouts/FooterLayout.astro";
 import ReviewCard from "../components/ReviewCard.astro";
+import Reviewitems from "../components/reviewitems.astro";
+// import { getCollection } from "astro:content";
+
+// const Reviews = await getCollection("reviews2024");
+const Reviews = await Astro.glob("../content/reviews2024/*.md");
 ---
 <MainLayout name="body" title="2024 reads and watches" />
 	<body>
@@ -11,9 +16,13 @@ import ReviewCard from "../components/ReviewCard.astro";
 			<div id="nav-box" class="section-box cont1">
 				<NavLayout />
             </div>
-            <div>
-                <ReviewCard />
-            </div>
+			<div id="review-container">
+				{
+					Reviews.map((review) =>
+						<ReviewCard review={review}/>
+					)
+					}
+			</div>
 			<FooterLayout credittxt="bg image from sadgrl.online" creditlink="https://sadgrl.online/webmastery/downloads/tiledbgs"/>
 		</div>
 	</body>
@@ -23,13 +32,17 @@ import ReviewCard from "../components/ReviewCard.astro";
 	}
 	#container{
         margin-top: 4em;
-		display: grid;
 		justify-content: center;
 		grid-template-areas: "nav" "main" "footer";
-		grid-gap: 1rem;
-		max-width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
+		min-width: fit-content;
+	}
+	#nav-box{
+		margin-bottom: 1.5rem;
+	}
+	#review-container{
+		display:grid;
+		grid-gap: 2rem;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.cont1{
         height: fit-content;

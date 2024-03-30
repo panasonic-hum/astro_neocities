@@ -1,9 +1,8 @@
 ---
 title: Perfect Blue
 type: movie
-layout: '../../components/ReviewCard.astro'
 year: 2024
-slug: perfect-blue
+shortened: perfect-blue
 ---
 ## Perfect Blue
 
