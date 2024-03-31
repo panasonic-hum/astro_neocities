@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+import TXFGenLayout from "../layouts/TXFGenLayout.astro";
+import FooterLayout from '../layouts/FooterLayout.astro';
+---
+
+<TXFGenLayout title="txf random episode generator" name="body" />
+<body>
+    <div id="container">
+        <main id="txf-ep-body">
+            <h1>
+                The X Files random episode generator v1 <i>(beta)</i>
+            </h1>
+            <p id="flavor-text">
+                Want to watch an X Files episode but paralyzed by choice? <br>
+                Feel like you just rewatch the same episodes over and over? <br>
+                Leave your viewing fate up to a pseudo-random javascript function! <br>
+                <i>no movies, just the 217 episodes</i>
+            </p>
+            <section id="episode-generator">
+                <h2 class="ep-header">
+                    Episode:
+                </h2>
+                <div id="episode-returned" class="ep-text" aria-live="polite" role="status">
+                </div>
+                <button id="episode-button" class="ep-btn" type="button">
+                    Get Episode
+                </button>
+            </section>
+        </main>  
+        <FooterLayout credittxt="bg image from sadgrl.online" creditlink="https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs"/>
+    </div> 
+</body>
+<script src="../utils/txfepisode.js">
+</script>
+<style>
+    body{
+        background-image: url('/images/stars3.gif');
+    }
+    #container{
+        place-items: end center;
+        grid-template-areas: "main" "footer";
+    }
+    #txf-ep-body{
+        border: black solid;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        margin-top: 4rem;
+        grid-area: main;
+    }
+    h1,h2{
+        color:black;
+    }
+    #episode-generator{
+        display: grid;
+        grid-template-areas: "header" "txt" "btn";
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        place-items: center;
+    }
+    button{
+        justify-self: center;
+        padding: 0.5rem;
+        background-color: #0A800A;
+        color: #f5f5f5;
+        transition-duration: 0.4s;
+    }
+    button:hover{
+        background-color: #f5f5f5;
+        color: #0A800A;
+    }
+    .ep-header{
+        grid-area: header;
+    }
+    .ep-text{
+        grid-area: txt;
+        padding-bottom: 1rem;
+        min-height: 40px;
+    }
+    .ep-btn{
+        grid-area: btn;
+    }
+    @media screen and (max-width: 740px) {
+        #episode-generator{
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+        }  
+    }
+</style>

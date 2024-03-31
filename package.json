@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/node": "^8.2.5",
+    "@fontsource/fira-mono": "^5.0.12",
     "astro": "^4.5.5",
     "astro-icon": "^1.1.0",
     "postcss-preset-env": "^9.5.2"

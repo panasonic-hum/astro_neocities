@@ -11,34 +11,27 @@ function randomnum(min, max){
 }
 
 function seasonpicker() {
-    return randomnum(1, 4);
+    return randomnum(1, 11);
 }
 
 function episodepicker(season) {
-    if (season == 2) {
-        return randomnum(1, 25);
-    } else{
-        return randomnum(1, 24);
-    }
+    let selectedseasonobj = myjson[season];
+    let length = Object.keys(myjson[season]).length;
+    return randomnum(1, length);
 }
 
 function getepisode(){
-    // readFile(epjson, function(err, data) { 
-    
-    //     // Check for errors 
-    //     if (err) throw err; 
-    
-    //     // Converting to JSON 
-    //     const episodes = JSON.parse(data); 
-    //     console.log(episodes);
-    // })  
     let season = seasonpicker();
     let episode = episodepicker(season);
-    const epunit = [season, episode];
-    return epunit;
+    let seasonobj = myjson[season];
+    let epname = seasonobj[episode];
+    const epgen = [];
+    epgen[0] = `Season ${season} Episode ${episode}`;
+    epgen[1] = `"${epname}"`;
+    return epgen;
 }
 
 function alertepisode(){
-    let title = getepisode();
-    alert(title);
+    let name = getepisode();
+    document.getElementById("episode-returned").innerHTML = `${name[0]} <br> ${name[1]}`;
 }
