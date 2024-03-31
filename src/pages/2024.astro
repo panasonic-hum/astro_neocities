@@ -4,10 +4,7 @@ import NavLayout from "../layouts/NavLayout.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 import FooterLayout from "../layouts/FooterLayout.astro";
 import ReviewCard from "../components/ReviewCard.astro";
-import Reviewitems from "../components/reviewitems.astro";
-// import { getCollection } from "astro:content";
 
-// const Reviews = await getCollection("reviews2024");
 const Reviews = await Astro.glob("../content/reviews2024/*.md");
 ---
 <MainLayout name="body" title="2024 reads and watches" />
