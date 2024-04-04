@@ -21,7 +21,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
         # if the build is throwing node errors, change this to the latest
         # version that is compatible with Astro/your SSG
 
