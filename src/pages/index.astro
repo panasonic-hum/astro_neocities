@@ -44,6 +44,13 @@ import { Icon } from 'astro-icon/components';
 						like to expand more from basic reviews to more fleshed out thoughts. HOPEFULLY I make good progress on both of these goals, but frontend dev is a lot of work and javascript
 						is a bit daunting, but I will keep at it.
 					</p>
+					<h3>
+						Random X Files generator!
+					</h3>
+					<p>
+						Sometimes I want to watch an X Files episode but I end up rewatching the same ones over and over, so I made a <a href="/randomtxfepisode">picker!</a>
+						This is my first javascript project and I have some other ideas on how to expand it out, I hope y'all like it.
+					</p>
 				</div>
 			</main>
 			<div id="cwcr-box" class="section-box cont3">
@@ -52,9 +59,9 @@ import { Icon } from 'astro-icon/components';
 				</div>
 				<div class="content-box">
 					<ul>
-						<li>🕮  Silver Spoon</li>
-						<li>🕮  Monster</li>
-						<li>🕮  Ping Pong</li>
+						<li><Icon name="icon-park-outline:book-one" />  Silver Spoon</li>
+						<li><Icon name="icon-park-outline:book-one" />  Monster</li>
+						<li><Icon name="icon-park-outline:book-one" />  Ping Pong</li>
 						<li><Icon name="icon-park-outline:tv-one" /> Fullmetal Alchemist: Brotherhood (rw)</li>
 						<li><Icon name="icon-park-outline:tv-one" /> Monster</li>
 						<li><Icon name="icon-park-outline:tv-one" /> Frieren: Beyond Journey's end</li>
@@ -81,14 +88,12 @@ import { Icon } from 'astro-icon/components';
 	}
 	.cont1{
 		grid-area: nav;
-		min-width: 180px;
 	}
 	.cont2{
 		grid-area: main;
 	}
 	.cont3{
 		grid-area: cwcr;
-		min-width: 360px;
 	}
 	.cont4{
 		grid-area: changelog;
