@@ -4,7 +4,7 @@ type: manga
 year: 2024
 shortened: basara
 feel: loved
-pubdate: 2024-03-31
+pubdate: "03/31/2024"
 ---
 
 Basara was both "a mangaka I like" with Yumi Tamura and "a big name shojo series" so it was pretty high up on my to read list. Basara captivated me immediately and held my attention to the end (minus the post-series stuff which isn't really my speed anyway). One noticeable difference between shojo and shonen manga is how much more work goes into conveying emotion and moments as opposed to big speeches or plot points. Basara has plenty of big plot moments that got me excited or pushed the story forward effectively and skillfully, but it's also a series that takes the time to give us a whole page of Sarasa or Shuri processing an emotional moment or revelation and is just as interested in the emotional story for the characters. I love long form storytelling precisely because I love seeing characters grow and change and this series did a great job of managing a large ensemble of Tatara's army, the royalty, and Shuri's orbit and their growth throughout the manga.  
