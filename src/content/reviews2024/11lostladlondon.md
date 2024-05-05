@@ -3,9 +3,10 @@ title: Lost Lad London
 type: manga
 year: 2024
 shortened: lostlad
+feel: liked
+pubdate: 2024-04-21
 ---
 
-## Lost Lad London
 
 I've started to lean towards short running manga since it's cheaper and less space intensive to collect, which is a big reason why I got Shima Shinya's two series, Lost Lad London and Glitch. Lost Lad London is an exploration of racism in a murder mystery as Al, a South Asian Londoner, is getting pinned for a murder he didn't commit. Shinya-sensei's art style is kind of deceptively simple: the paneling is contained within a few boxes for each page and isn't too detailed, but that simplicity is also its strength. The space is mostly taken over by dialogue and the emotional response of characters and it serves the narrative well. I also just really love the art style, it's so gorgeous.  
   

@@ -3,9 +3,10 @@ title: Promare
 type: movie
 year: 2024
 shortened: promare
+feel: mixed
+pubdate: 2024-04-21
 ---
 
-## Promare
 
 Promare is beautiful visually, with vibrant colors and a very geometric animation look that I really enjoyed. The fights were fun and visually loud, maybe overwhelmingly loud by the end, and the characters were fun and charismatic (minus Forsight who was undercooked imo).  
   

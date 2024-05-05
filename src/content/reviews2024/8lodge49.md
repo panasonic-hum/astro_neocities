@@ -3,9 +3,10 @@ title: Lodge 49
 type: tv
 year: 2024
 shortened: lodge49
+feel: loved
+pubdate: 2024-04-14
 ---
 
-## Lodge 49  
 
 Lodge 49 heard my pleas for fewer TV dramas about rich people and more stories about people living on the edge of a broken economic system who are close to tipping over. Lodge 49 is not just about economic precarity and the dying of the American middle class, but about loss and death generally. The focus of the story is on Liz and Dud, who lost their father a year ago and have been struggling a lot with it. They both have bizarre ways to cope with the grief, but Dud joins an esoteric Lodge order and becomes interested in alchemy.  
   

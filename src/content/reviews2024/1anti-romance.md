@@ -3,8 +3,9 @@ title: Anti-Romance
 type: manga
 year: 2024
 shortened: anti-romance
+feel: disliked
+pubdate: 2024-01-09
 ---
-## Anti-Romance
 
 This was only two volumes and seemed interesting so I picked it up on a whim. Anti-Romance was a mixed bag for me. The couple are childhood friends and roommates (_vine voice_ and they were roommates) struggling to come to terms with the romantic feelings harbored between them. In the process, they hurt each other as these feelings have festered in a lot of unhealthy ways in the past 6 year. But truthfully, I didn't feel too invested in the main couple's story. Both Suou and Ryou have people they talk to about this relationship and those not-couples were once in a similar boat to them and offer advice about their own moments that came and went. I found those stories of failures in communication and missing a window and having the rest of your life to regret it interesting and bittersweet. These secondary relationships did a great job contextualizing what Suou and Ryou had to lose if this moment passed them by, and I found them more interesting than the main characters.  
   

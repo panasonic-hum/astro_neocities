@@ -3,9 +3,10 @@ title: Ping Pong
 type: manga
 year: 2024
 shortened: pingpong
+feel: loved
+pubdate: 2024-04-21
 ---
 
-## Ping Pong
 
 I get really excited when a medium pushes against the limitations of itself. Sports manga can be a great example of this, considering how much sports involve movement and action which can be a challenge to properly illustrate. Ping Pong showed me how much value can be added within the pages to make a sports story dynamic in the confines of a manga panel. I’ve only read Haikyuu before this and that series does a good job of not completely confusing the reader, but Ping Pong was such a step up action wise compared to Haikyuu (no hate!). So much was conveyed by sound effects and paneling that added this dynamism that blew me away.
 

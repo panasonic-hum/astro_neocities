@@ -3,9 +3,9 @@ title: Telework Yotabanashi (Home Office Romance)
 type: manga
 year: 2024
 shortened: telework
+feel: loved
+pubdate: 2024-01-09
 ---
-
-## Home Office Romance  
 
 Home Office Romance is a combination of two of the trickiest genres for me to enjoy: slice of life and romance. However, I adored this short read! I found Nokoru endearing in the way that straightforward nerds can be and it helps that I share a lot of his personality traits myself. He's hard working and constantly exasperated by everyone else, extremely relatable. I loved seeing all of Natsu and Nokoru's little interactions and seeing their relationship develop.  
   
