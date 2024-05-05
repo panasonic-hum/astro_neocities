@@ -7,7 +7,8 @@ const reviewCollection = defineCollection({
       title: z.string(),
       type: z.string(),
       year: z.number(),
-      shortened: z.string()
+      shortened: z.string(),
+      feel: z.enum(["loved", "liked", "mixed,", "disliked"])
     })
 });
 // Export a single `collections` object to register your collection(s)

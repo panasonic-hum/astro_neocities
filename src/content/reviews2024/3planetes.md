@@ -3,9 +3,9 @@ title: Planetes
 type: manga
 year: 2024
 shortened: planetes
+feel: mixed
+pubdate: 2024-02-03
 ---
-
-## Planetes
   
 Planetes is undoubtedly a great manga. It has space exploration ennui and celebrates the pursuit of scientific journey into space while discussing the pitfalls of that endeavor. It's a real hard science sci-fi series but doesn't skimp on character development or the emotional interior of the characters. But, to me this series was one where I can recognize all of this and still not enjoy it a lot.  
   

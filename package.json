@@ -10,14 +10,22 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^2.2.3",
     "@astrojs/node": "^8.2.5",
+    "@astrojs/rss": "^4.0.5",
     "@fontsource/fira-mono": "^5.0.12",
     "astro": "^4.5.5",
     "astro-icon": "^1.1.0",
     "postcss-preset-env": "^9.5.2"
   },
   "devDependencies": {
+    "@iconify-json/bi": "^1.1.23",
+    "@iconify-json/fluent": "^1.1.52",
+    "@iconify-json/fluent-mdl2": "^1.1.7",
     "@iconify-json/icon-park-outline": "^1.1.15",
+    "@iconify-json/icon-park-solid": "^1.1.14",
+    "@iconify-json/mdi": "^1.1.66",
+    "@iconify-json/ph": "^1.1.12",
     "postcss": "^8.4.38",
     "postcss-custom-properties": "^13.3.6",
     "postcss-mixins": "^10.0.0"
