@@ -4,7 +4,7 @@ type: manga
 year: 2024
 shortened: pingpong
 feel: loved
-pubdate: 2024-04-21
+pubdate: "04/21/2024"
 ---
 
 

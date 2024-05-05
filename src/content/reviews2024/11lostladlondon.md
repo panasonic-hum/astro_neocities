@@ -4,7 +4,7 @@ type: manga
 year: 2024
 shortened: lostlad
 feel: liked
-pubdate: 2024-04-21
+pubdate: "04/21/2024"
 ---
 
 

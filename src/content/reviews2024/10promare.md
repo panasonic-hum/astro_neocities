@@ -4,7 +4,7 @@ type: movie
 year: 2024
 shortened: promare
 feel: mixed
-pubdate: 2024-04-21
+pubdate: "04/21/2024"
 ---
 
 

@@ -6,6 +6,7 @@ import FooterLayout from "../layouts/FooterLayout.astro";
 import ReviewCard from "../components/ReviewCard.astro";
 
 const Reviews = await Astro.glob("../content/reviews2024/*.md");
+Reviews.sort((a, b) => Date.parse(b.frontmatter.pubdate) - Date.parse(a.frontmatter.pubdate));
 ---
 <MainLayout name="body" title="2024 reads and watches" />
 	<body>

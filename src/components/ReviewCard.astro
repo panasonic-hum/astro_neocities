@@ -3,6 +3,9 @@ import { Icon } from 'astro-icon/components';
 
 const {review} = Astro.props;
 const reviewmd = review.compiledContent();
+// const Published_date = review.frontmatter.pubdate
+// console.log(Published_date)
+// const Formatted_date = new Date(Published_date.getFullYear(), Published_date.getMoth(), Published_date.getDate());
 
 const infoIcons = {
     loved: "fluent-mdl2:favorite-star-fill",
@@ -31,7 +34,8 @@ const infoIcons = {
         </div>
         <div id={`${review.frontmatter.shortened}-tags`} class="tag-container">
             <span class:list={["tag", review.frontmatter.type]}>{review.frontmatter.type}</span>
-            <span class:list={["tag", review.frontmatter.type]}><Icon name={infoIcons[review.frontmatter.feel]} class="svg-icon-tag"/> {review.frontmatter.feel}</span>
+            <span class:list={["tag", review.frontmatter.feel]}><Icon name={infoIcons[review.frontmatter.feel]} class="svg-icon-tag"/> {review.frontmatter.feel}</span>
+            <span class:list={["tag", "published-date"]}>{review.frontmatter.pubdate}</span>
         </div>
     </div>
 </article>
@@ -46,8 +50,11 @@ const infoIcons = {
         width: fit-content;
     }
     .content-box{
-        display: grid;
-        grid-template-rows: 1fr 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        height: calc(100% - 45px);
     }
     .movie{
         background-color: #E7BBE3;
@@ -60,6 +67,22 @@ const infoIcons = {
     }
     .album{
         background-color: #A288A6;
+    }
+    .loved{
+        background-color: #e95d5d;
+    }
+    .liked{
+        background-color: #ffa53e;
+    }
+    .mixed{
+        background-color: #ffffff;
+    }
+    .disliked{
+        background-color: #b8b8b8;
+    }
+    .published-date{
+        color: white;
+        background-color: #520824;
     }
     .svg-icon{
         font-size: 1em;
@@ -75,10 +98,6 @@ const infoIcons = {
         margin-bottom: 2px;
     }
     .tag-container{
-        align-self: flex-end;
-        margin-bottom: 5px;
-    }
-    .review-text{
-        
+        padding-bottom: 5px;
     }
 </style>
