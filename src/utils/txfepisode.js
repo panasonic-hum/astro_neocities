@@ -23,7 +23,7 @@ function EpisodePicker(season) {
 function GetEpisode(){
     let season = SeasonPicker();
     let episode = EpisodePicker(season);
-    let seasonObj = myjson[season];
+    let seasonObj = episodeJSON[season];
     let SelEpisodeName = seasonObj[episode];
     const episodeArray = [];
     episodeArray[0] = `Season ${season} Episode ${episode}`;
