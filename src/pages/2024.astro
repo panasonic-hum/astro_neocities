@@ -6,6 +6,7 @@ import FooterLayout from "../layouts/FooterLayout.astro";
 import ReviewCard from "../components/ReviewCard.astro";
 
 const Reviews = await Astro.glob("../content/reviews2024/*.md");
+Reviews.sort((a, b) => Date.parse(b.frontmatter.pubdate) - Date.parse(a.frontmatter.pubdate));
 ---
 <MainLayout name="body" title="2024 reads and watches" />
 	<body>
@@ -13,7 +14,7 @@ const Reviews = await Astro.glob("../content/reviews2024/*.md");
 			<div id="nav-box" class="section-box cont1">
 				<NavLayout />
             </div>
-			<div id="review-container">
+			<div id="review-container" class="cont2">
 				{
 					Reviews.map((review) =>
 						<ReviewCard review={review}/>
@@ -57,6 +58,9 @@ const Reviews = await Astro.glob("../content/reviews2024/*.md");
 		grid-template-areas: "nav" "main" "footer";
 		grid-gap: 1rem;
 		max-width: 100%;
+	}
+	#review-container{
+		grid-template-columns: 1fr;
 	}
 	}
 </style>

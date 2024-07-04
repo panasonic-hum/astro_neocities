@@ -1,6 +1,23 @@
 ---
+import { Icon } from 'astro-icon/components';
+
 const {review} = Astro.props;
 const reviewmd = review.compiledContent();
+// const Published_date = review.frontmatter.pubdate
+// console.log(Published_date)
+// const Formatted_date = new Date(Published_date.getFullYear(), Published_date.getMoth(), Published_date.getDate());
+
+const infoIcons = {
+    loved: "fluent-mdl2:favorite-star-fill",
+    liked: "bi:chat-heart-fill",
+    mixed: "fluent:thumb-like-dislike-16-regular",
+    disliked: "icon-park-solid:dislike-two",
+    tv: "icon-park-outline:tv-one",
+    book: "ph:books-duotone",
+    manga: "ph:books-duotone",
+    movie: "mdi:movie-open-settings",
+    album: "icon-park-outline:music-cd"
+}
 ---
 
 
@@ -8,7 +25,84 @@ const reviewmd = review.compiledContent();
     <div class="section-title">
         {review.frontmatter.title}
     </div>
-    <div class="content-box"> 
-        <Fragment set:html={reviewmd} />
+    <div class="content-box">
+        <div class="review-text">
+            <span class="review-icon">
+            <h2><Icon name={infoIcons[review.frontmatter.type]} class:list={["svg-icon", review.frontmatter.type]}/> {review.frontmatter.title}</h2>
+            </span>
+            <Fragment set:html={reviewmd} />
+        </div>
+        <div id={`${review.frontmatter.shortened}-tags`} class="tag-container">
+            <span class:list={["tag", review.frontmatter.type]}>{review.frontmatter.type}</span>
+            <span class:list={["tag", review.frontmatter.feel]}><Icon name={infoIcons[review.frontmatter.feel]} class="svg-icon-tag"/> {review.frontmatter.feel}</span>
+            <span class:list={["tag", "published-date"]}>{review.frontmatter.pubdate}</span>
+        </div>
     </div>
 </article>
+<style define:vars={{
+}}>
+    .tag{
+        border-radius: 50px;
+        padding-left: 10px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-right: 10px;
+        width: fit-content;
+    }
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        height: calc(100% - 45px);
+    }
+    .movie{
+        background-color: #E7BBE3;
+    }
+    .manga, .book{
+        background-color: #1B998B;
+    }
+    .tv{
+        background-color: #C5D86D;
+    }
+    .album{
+        background-color: #A288A6;
+    }
+    .loved{
+        background-color: #e95d5d;
+    }
+    .liked{
+        background-color: #ffa53e;
+    }
+    .mixed{
+        background-color: #ffffff;
+    }
+    .disliked{
+        background-color: #b8b8b8;
+    }
+    .published-date{
+        color: white;
+        background-color: #520824;
+    }
+    .svg-icon{
+        font-size: 1em;
+        color: black;
+        vertical-align: bottom;
+        position: relative;
+        margin-bottom: 2px;
+        border-radius: 10px;
+    } 
+    .svg-icon-tag{
+        vertical-align: bottom;
+        position: relative;
+        margin-bottom: 2px;
+    }
+    .tag-container{
+        padding-bottom: 5px;
+    }
+    @media screen and (max-width: 740px) {
+    	.content-box {
+			height: auto;
+	}
+	}
+</style>

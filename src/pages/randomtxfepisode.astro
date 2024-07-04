@@ -27,12 +27,21 @@ import FooterLayout from '../layouts/FooterLayout.astro';
                     Get Episode
                 </button>
             </section>
+            <section id="mytharc-episode-generator">
+                <h2 class="ep-header">
+                    Episode:
+                </h2>
+                <div id="mytharc-returned" class="ep-text" aria-live="polite" role="status">
+                </div>
+                <button id="mytharc-button" class="ep-btn" type="button">
+                    Get Mytharc Episode
+                </button>
+            </section>
         </main>  
         <FooterLayout credittxt="bg image from sadgrl.online" creditlink="https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs"/>
     </div> 
 </body>
-<script src="../utils/txfepisode.js">
-</script>
+<script src="../utils/txfepisode_new.js"></script>
 <style>
     body{
         background-image: url('/images/stars3.gif');
