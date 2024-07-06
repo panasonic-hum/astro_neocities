@@ -2,40 +2,56 @@
 import '../styles/global.css';
 import TXFGenLayout from "../layouts/TXFGenLayout.astro";
 import FooterLayout from '../layouts/FooterLayout.astro';
+import { Icon } from 'astro-icon/components';
 ---
 
 <TXFGenLayout title="txf random episode generator" name="body" />
 <body>
     <div id="container">
-        <main id="txf-ep-body">
+        <div id="nav-bar" class="nav-container">
+            <a href="/"class="nav-btn">go to my homepage :)</a>
+        </div>
+        <main id="txf-ep-body" class="txf-container">
             <h1>
-                The X Files random episode generator v1 <i>(beta)</i>
+                The X Files random episode generator v1.1
             </h1>
             <p id="flavor-text">
-                Want to watch an X Files episode but paralyzed by choice? <br>
-                Feel like you just rewatch the same episodes over and over? <br>
-                Leave your viewing fate up to a pseudo-random javascript function! <br>
+                Let fate determine what episode you watch...🎱 <br>
+                now has some filter options! <br>
                 <i>no movies, just the 217 episodes</i>
             </p>
             <section id="episode-generator">
                 <h2 class="ep-header">
                     Episode:
                 </h2>
+                <p id="total-count" class="count" aria-live="polite" role="status"></p>
                 <div id="episode-returned" class="ep-text" aria-live="polite" role="status">
                 </div>
-                <button id="episode-button" class="ep-btn" type="button">
-                    Get Episode
-                </button>
-            </section>
-            <section id="mytharc-episode-generator">
-                <h2 class="ep-header">
-                    Episode:
-                </h2>
-                <div id="mytharc-returned" class="ep-text" aria-live="polite" role="status">
+                <div id="type-toggle-grp" class="checkbox-section">
+                    <fieldset id="filter-fieldset">
+                        <legend>Filter by episode type:</legend>
+                        
+                        <div>
+                            <input type="radio" id="no-filter" name="episode-type" value="all episode types" aria-label="All" checked></input>
+                            <label for="no-filter"><Icon class="svg-icon" name="icon-park-outline:tv" /></label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="mytharc" name="episode-type" aria-label="Mytharc episodes"></input>
+                            <label for="mytharc"><Icon class="svg-icon" name="tabler:ufo" /></label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="motw" name="episode-type" aria-label="Monster of the week episodes"></input>
+                            <label for="motw"><Icon class="svg-icon" name="ph:briefcase-fill"/></label>
+                        </div>
+                    </fieldset>
                 </div>
-                <button id="mytharc-button" class="ep-btn" type="button">
-                    Get Mytharc Episode
-                </button>
+                <div id="btn-container">
+                    <button id="episode-button" class="ep-btn" type="button">
+                        Get Episode
+                    </button>
+                </div>
             </section>
         </main>  
         <FooterLayout credittxt="bg image from sadgrl.online" creditlink="https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs"/>
@@ -46,27 +62,11 @@ import FooterLayout from '../layouts/FooterLayout.astro';
     body{
         background-image: url('/images/stars3.gif');
     }
-    #container{
-        place-items: end center;
-        grid-template-areas: "main" "footer";
-    }
-    #txf-ep-body{
-        border: black solid;
-        padding: 2rem;
-        background-color: rgba(255, 255, 255, 0.85);
-        margin-top: 4rem;
-        grid-area: main;
+    legend{
+        text-align: center;
     }
     h1,h2{
         color:black;
-    }
-    #episode-generator{
-        display: grid;
-        grid-template-areas: "header" "txt" "btn";
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
-        place-items: center;
     }
     button{
         justify-self: center;
@@ -79,16 +79,95 @@ import FooterLayout from '../layouts/FooterLayout.astro';
         background-color: #f5f5f5;
         color: #0A800A;
     }
+    input[type=radio]:checked + label {
+        .svg-icon{
+            color:#0A800A;
+        }
+    }
+    label{
+        cursor: pointer;
+    }
+    #container{
+        place-items: end center;
+        grid-template-areas: "nav" "main" "footer";
+    }
+    .txf-container{
+        border: black solid;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        margin-top: 4rem;
+    }
+    .nav-container{
+        border: black solid;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: rgba(255, 255, 255, 0.85);
+        margin-top: 2rem;
+    }
+    #nav-bar{
+        grid-area: nav;
+        justify-self: start;
+        align-self: start;
+        margin-top: 50px
+    }
+    .nav-btn{
+        background-color: ;
+        color: #31573e;
+        border: 2px inset #31573e;
+        background-color: #fd6649;
+        filter: drop-shadow(7px 7px 0 var(--shadow-color));
+        border-radius: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #txf-ep-body{
+        grid-area: main;
+    }
+    #episode-generator{
+        display: grid;
+        grid-template-areas: "header" "txt" "btn";
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        place-items: center;
+    }
+    #episode-returned{
+        text-align: center;
+    }
     .ep-header{
         grid-area: header;
     }
     .ep-text{
         grid-area: txt;
         padding-bottom: 1rem;
-        min-height: 40px;
+        min-height: 50px;
     }
     .ep-btn{
         grid-area: btn;
+    }
+    .svg-icon{
+        font-size: 3rem;
+        color: rgb(117, 102, 102);
+        vertical-align: bottom;
+        position: relative;
+        margin-bottom: 2px;
+        border-radius: 10px;
+    }
+    #filter-fieldset{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        column-gap: 10px;
+    }
+    #type-toggle-grp{
+        margin-bottom: 15px;
+    }
+    .count{
+        min-height: 20px;
     }
     @media screen and (max-width: 740px) {
         #episode-generator{
@@ -96,5 +175,11 @@ import FooterLayout from '../layouts/FooterLayout.astro';
             margin-left: 0%;
             margin-right: 0%;
         }  
+        #btn-container{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+        }
     }
 </style>

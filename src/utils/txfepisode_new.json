@@ -1,892 +1,1738 @@
 [
   {
-    "S01E01": {
-      "episode_name": "Pilot",
-      "tags": [1]
-    },
-    "S01E02": {
-      "episode_name": "Deep Throat",
-      "tags": [1]
-    },
-    "S01E03": {
-      "episode_name": "Squeeze",
-      "tags": [2]
-    },
-    "S01E04": {
-      "episode_name": "Conduit",
-      "tags": [2]
-    },
-    "S01E05": {
-      "episode_name": "The Jersey Devil",
-      "tags": [2]
-    },
-    "S01E06": {
-      "episode_name": "Shadows",
-      "tags": [2]
-    },
-    "S01E07": {
-      "episode_name": "Ghost in the Machine",
-      "tags": [2]
-    },
-    "S01E08": {
-      "episode_name": "Ice",
-      "tags": [2]
-    },
-    "S01E09": {
-      "episode_name": "Space",
-      "tags": [2]
-    },
-    "S01E10": {
-      "episode_name": "Fallen Angel",
-      "tags": [1]
-    },
-    "S01E11": {
-      "episode_name": "Eve",
-      "tags": [2]
-    },
-    "S01E12": {
-      "episode_name": "Fire",
-      "tags": [2]
-    },
-    "S01E13": {
-      "episode_name": "Beyond the Sea",
-      "tags": [2]
-    },
-    "S01E14": {
-      "episode_name": "Gender Bender",
-      "tags": [2]
-    },
-    "S01E15": {
-      "episode_name": "Lazarus",
-      "tags": [2]
-    },
-    "S01E16": {
-      "episode_name": "Young at Heart",
-      "tags": [2]
-    },
-    "S01E17": {
-      "episode_name": "E.B.E.",
-      "tags": [1]
-    },
-    "S01E18": {
-      "episode_name": "Miracle Man",
-      "tags": [2]
-    },
-    "S01E19": {
-      "episode_name": "Shapes",
-      "tags": [2]
-    },
-    "S01E20": {
-      "episode_name": "Darkness Falls",
-      "tags": [2]
-    },
-    "S01E21": {
-      "episode_name": "Tooms",
-      "tags": [2]
-    },
-    "S01E22": {
-      "episode_name": "Born Again",
-      "tags": [2]
-    },
-    "S01E23": {
-      "episode_name": "Roland",
-      "tags": [2]
-    },
-    "S01E24": {
-      "episode_name": "The Erlenmeyer Flask",
-      "tags": [1]
-    }
+    "episode_name": "Pilot",
+    "tags": [
+      1
+    ],
+    "episode_code": "S01E01",
+    "id": 0
   },
   {
-    "S02E01": {
-      "episode_name": "Little Green Men",
-      "tags": [1]
-    },
-    "S02E02": {
-      "episode_name": "The Host",
-      "tags": [2]
-    },
-    "S02E03": {
-      "episode_name": "Blood",
-      "tags": [2]
-    },
-    "S02E04": {
-      "episode_name": "Sleepless",
-      "tags": [2]
-    },
-    "S02E05": {
-      "episode_name": "Duane Barry",
-      "tags": [1]
-    },
-    "S02E06": {
-      "episode_name": "Ascension",
-      "tags": [1]
-    },
-    "S02E07": {
-      "episode_name": "3",
-      "tags": [2]
-    },
-    "S02E08": {
-      "episode_name": "One Breath",
-      "tags": [1]
-    },
-    "S02E09": {
-      "episode_name": "Firewalker",
-      "tags": [2]
-    },
-    "S02E10": {
-      "episode_name": "Red Museum",
-      "tags": [1]
-    },
-    "S02E11": {
-      "episode_name": "Excelsis Dei",
-      "tags": [2]
-    },
-    "S02E12": {
-      "episode_name": "Aubrey",
-      "tags": [2]
-    },
-    "S02E13": {
-      "episode_name": "Irresistible",
-      "tags": [2]
-    },
-    "S02E14": {
-      "episode_name": "Die Hand Die Verletzt",
-      "tags": [2]
-    },
-    "S02E15": {
-      "episode_name": "Fresh Bones",
-      "tags": [2]
-    },
-    "S02E16": {
-      "episode_name": "Colony",
-      "tags": [1]
-    },
-    "S02E17": {
-      "episode_name": "End Game",
-      "tags": [1]
-    },
-    "S02E18": {
-      "episode_name": "Fearful Symmetry",
-      "tags": [2]
-    },
-    "S02E19": {
-      "episode_name": "Død Kalm",
-      "tags": [2]
-    },
-    "S02E20": {
-      "episode_name": "Humbug",
-      "tags": [2]
-    },
-    "S02E21": {
-      "episode_name": "The Calusari",
-      "tags": [2]
-    },
-    "S02E22": {
-      "episode_name": "F. Emasculata",
-      "tags": [2]
-    },
-    "S02E23": {
-      "episode_name": "Soft Light",
-      "tags": [2]
-    },
-    "S02E24": {
-      "episode_name": "Our Town",
-      "tags": [2]
-    },
-    "S02E25": {
-      "episode_name": "Anasazi",
-      "tags": [1]
-    }
+    "episode_name": "Deep Throat",
+    "tags": [
+      1
+    ],
+    "episode_code": "S01E02",
+    "id": 1
   },
   {
-    "S03E01": {
-      "episode_name": "The Blessing Way",
-      "tags": [1]
-    },
-    "S03E02": {
-      "episode_name": "Paper Clip",
-      "tags": [1]
-    },
-    "S03E03": {
-      "episode_name": "D.P.O.",
-      "tags": [2]
-    },
-    "S03E04": {
-      "episode_name": "Clyde Bruckman's Final Repose",
-      "tags": [2]
-    },
-    "S03E05": {
-      "episode_name": "The List",
-      "tags": [2]
-    },
-    "S03E06": {
-      "episode_name": "2Shy",
-      "tags": [2]
-    },
-    "S03E07": {
-      "episode_name": "The Walk",
-      "tags": [2]
-    },
-    "S03E08": {
-      "episode_name": "Oubliette",
-      "tags": [2]
-    },
-    "S03E09": {
-      "episode_name": "Nisei",
-      "tags": [1]
-    },
-    "S03E10": {
-      "episode_name": "731",
-      "tags": [1]
-    },
-    "S03E11": {
-      "episode_name": "Revelations",
-      "tags": [2]
-    },
-    "S03E12": {
-      "episode_name": "War of the Coprophages",
-      "tags": [2]
-    },
-    "S03E13": {
-      "episode_name": "Syzygy",
-      "tags": [2]
-    },
-    "S03E14": {
-      "episode_name": "Grotesque",
-      "tags": [2]
-    },
-    "S03E15": {
-      "episode_name": "Piper Maru",
-      "tags": [1]
-    },
-    "S03E16": {
-      "episode_name": "Apocrypha",
-      "tags": [1]
-    },
-    "S03E17": {
-      "episode_name": "Pusher",
-      "tags": [2]
-    },
-    "S03E18": {
-      "episode_name": "Teso Dos Bichos",
-      "tags": [2]
-    },
-    "S03E19": {
-      "episode_name": "Hell Money",
-      "tags": [2]
-    },
-    "S03E20": {
-      "episode_name": "Jose Chung's From Outer Space",
-      "tags": [2]
-    },
-    "S03E21": {
-      "episode_name": "Avatar",
-      "tags": [2]
-    },
-    "S03E22": {
-      "episode_name": "Quagmire",
-      "tags": [2]
-    },
-    "S03E23": {
-      "episode_name": "Wetwired",
-      "tags": [1]
-    },
-    "S03E24": {
-      "episode_name": "Talitha Cumi",
-      "tags": [1]
-    }
+    "episode_name": "Squeeze",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E03",
+    "id": 2
   },
   {
-    "S04E01": {
-      "episode_name": "Herrenvolk",
-      "tags": [1]
-    },
-    "S04E02": {
-      "episode_name": "Home",
-      "tags": [2]
-    },
-    "S04E03": {
-      "episode_name": "Teliko",
-      "tags": [2]
-    },
-    "S04E04": {
-      "episode_name": "Unruhe",
-      "tags": [2]
-    },
-    "S04E05": {
-      "episode_name": "The Field Where I Died",
-      "tags": [2]
-    },
-    "S04E06": {
-      "episode_name": "Sanguinarium",
-      "tags": [2]
-    },
-    "S04E07": {
-      "episode_name": "Musings of a Cigarette Smoking Man",
-      "tags": [1]
-    },
-    "S04E08": {
-      "episode_name": "Tunguska",
-      "tags": [1]
-    },
-    "S04E09": {
-      "episode_name": "Terma",
-      "tags": [1]
-    },
-    "S04E10": {
-      "episode_name": "Paper Hearts",
-      "tags": [2]
-    },
-    "S04E11": {
-      "episode_name": "El Mundo Gira",
-      "tags": [2]
-    },
-    "S04E12": {
-      "episode_name": "Leonard Betts",
-      "tags": [2]
-    },
-    "S04E13": {
-      "episode_name": "Never Again",
-      "tags": [2]
-    },
-    "S04E14": {
-      "episode_name": "Memento Mori",
-      "tags": [1]
-    },
-    "S04E15": {
-      "episode_name": "Kaddish",
-      "tags": [2]
-    },
-    "S04E16": {
-      "episode_name": "Unrequited",
-      "tags": [2]
-    },
-    "S04E17": {
-      "episode_name": "Tempus Fugit",
-      "tags": [1]
-    },
-    "S04E18": {
-      "episode_name": "Max",
-      "tags": [1]
-    },
-    "S04E19": {
-      "episode_name": "Synchrony",
-      "tags": [2]
-    },
-    "S04E20": {
-      "episode_name": "Small Potatoes",
-      "tags": [2]
-    },
-    "S04E21": {
-      "episode_name": "Zero Sum",
-      "tags": [1]
-    },
-    "S04E22": {
-      "episode_name": "Elegy",
-      "tags": [2]
-    },
-    "S04E23": {
-      "episode_name": "Demons",
-      "tags": [1]
-    },
-    "S04E24": {
-      "episode_name": "Gethsemane",
-      "tags": [1]
-    }
+    "episode_name": "Conduit",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E04",
+    "id": 3
   },
   {
-    "S05E01": {
-      "episode_name": "Redux",
-      "tags": [1]
-    },
-    "S05E02": {
-      "episode_name": "Redux II",
-      "tags": [1]
-    },
-    "S05E03": {
-      "episode_name": "Unusual Suspects",
-      "tags": [2]
-    },
-    "S05E04": {
-      "episode_name": "Detour",
-      "tags": [2]
-    },
-    "S05E05": {
-      "episode_name": "The Post-Modern Prometheus",
-      "tags": [2]
-    },
-    "S05E006": {
-      "episode_name": "Christmas Carol",
-      "tags": [1]
-    },
-    "S05E07": {
-      "episode_name": "Emily",
-      "tags": [1]
-    },
-    "S05E08": {
-      "episode_name": "Kitsunegari",
-      "tags": [2]
-    },
-    "S05E09": {
-      "episode_name": "Schizogeny",
-      "tags": [2]
-    },
-    "S05E10": {
-      "episode_name": "Chinga",
-      "tags": [2]
-    },
-    "S05E11": {
-      "episode_name": "Kill Switch",
-      "tags": [2]
-    },
-    "S05E12": {
-      "episode_name": "Bad Blood",
-      "tags": [2]
-    },
-    "S05E13": {
-      "episode_name": "Patient X",
-      "tags": [1]
-    },
-    "S05E14": {
-      "episode_name": "The Red and the Black",
-      "tags": [1]
-    },
-    "S05E15": {
-      "episode_name": "Travelers",
-      "tags": [2]
-    },
-    "S05E16": {
-      "episode_name": "Mind's Eye",
-      "tags": [2]
-    },
-    "S05E17": {
-      "episode_name": "All Souls",
-      "tags": [2]
-    },
-    "S05E18": {
-      "episode_name": "The Pine Bluff Variant",
-      "tags": [2]
-    },
-    "S05E19": {
-      "episode_name": "Folie \u00e0 Deux",
-      "tags": [2]
-    },
-    "S05E20": {
-      "episode_name": "The End",
-      "tags": [1]
-    }
+    "episode_name": "The Jersey Devil",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E05",
+    "id": 4
   },
   {
-    "S06E01": {
-      "episode_name": "The Beginning",
-      "tags": [1]
-    },
-    "S06E02": {
-      "episode_name": "Drive",
-      "tags": [2]
-    },
-    "S06E03": {
-      "episode_name": "Triangle",
-      "tags": [2]
-    },
-    "S06E04": {
-      "episode_name": "Dreamland",
-      "tags": [2]
-    },
-    "S06E05": {
-      "episode_name": "Dreamland II",
-      "tags": [2]
-    },
-    "S06E06": {
-      "episode_name": "How the Ghosts Stole Christmas",
-      "tags": [2]
-    },
-    "S06E07": {
-      "episode_name": "Terms of Endearment",
-      "tags": [2]
-    },
-    "S06E08": {
-      "episode_name": "The Rain King",
-      "tags": [2]
-    },
-    "S06E09": {
-      "episode_name": "S.R. 819",
-      "tags": [1]
-    },
-    "S06E10": {
-      "episode_name": "Tithonus",
-      "tags": [2]
-    },
-    "S06E11": {
-      "episode_name": "Two Fathers",
-      "tags": [1]
-    },
-    "S06E12": {
-      "episode_name": "One Son",
-      "tags": [1]
-    },
-    "S06E13": {
-      "episode_name": "Agua Mala",
-      "tags": [2]
-    },
-    "S06E14": {
-      "episode_name": "Monday",
-      "tags": [2]
-    },
-    "S06E15": {
-      "episode_name": "Arcadia",
-      "tags": [2]
-    },
-    "S06E16": {
-      "episode_name": "Alpha",
-      "tags": [2]
-    },
-    "S06E17": {
-      "episode_name": "Trevor",
-      "tags": [2]
-    },
-    "S06E18": {
-      "episode_name": "Milagro",
-      "tags": [2]
-    },
-    "S06E19": {
-      "episode_name": "The Unnatural",
-      "tags": [2]
-    },
-    "S06E20": {
-      "episode_name": "Three of a Kind",
-      "tags": [2]
-    },
-    "S06E21": {
-      "episode_name": "Field Trip",
-      "tags": [2]
-    },
-    "S06E22": {
-      "episode_name": "Biogenesis",
-      "tags": [1]
-    }
+    "episode_name": "Shadows",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E06",
+    "id": 5
   },
   {
-    "S07E01": {
-      "episode_name": "The Sixth Extinction",
-      "tags": [1]
-    },
-    "S07E02": {
-      "episode_name": "The Sixth Extinction II: Amor Fati",
-      "tags": [1]
-    },
-    "S07E03": {
-      "episode_name": "Hungry",
-      "tags": [2]
-    },
-    "S07E04": {
-      "episode_name": "Millennium",
-      "tags": [2]
-    },
-    "S07E05": {
-      "episode_name": "Rush",
-      "tags": [2]
-    },
-    "S07E06": {
-      "episode_name": "The Goldberg Variation",
-      "tags": [2]
-    },
-    "S07E07": {
-      "episode_name": "Orison",
-      "tags": [2]
-    },
-    "S07E08": {
-      "episode_name": "The Amazing Maleeni",
-      "tags": [2]
-    },
-    "S07E09": {
-      "episode_name": "Signs and Wonders",
-      "tags": [2]
-    },
-    "S07E10": {
-      "episode_name": "Sein und Zeit",
-      "tags": [1]
-    },
-    "S07E11": {
-      "episode_name": "Closure",
-      "tags": [1]
-    },
-    "S07E12": {
-      "episode_name": "X-Cops",
-      "tags": [2]
-    },
-    "S07E13": {
-      "episode_name": "First Person Shooter",
-      "tags": [2]
-    },
-    "S07E14": {
-      "episode_name": "Theef",
-      "tags": [2]
-    },
-    "S07E15": {
-      "episode_name": "En Ami",
-      "tags": [1]
-    },
-    "S07E16": {
-      "episode_name": "Chimera",
-      "tags": [2]
-    },
-    "S07E17": {
-      "episode_name": "all things",
-      "tags": [2]
-    },
-    "S07E18": {
-      "episode_name": "Brand X",
-      "tags": [2]
-    },
-    "S07E19": {
-      "episode_name": "Hollywood A.D.",
-      "tags": [2]
-    },
-    "S07E20": {
-      "episode_name": "Fight Club",
-      "tags": [2]
-    },
-    "S07E21": {
-      "episode_name": "Je Souhaite",
-      "tags": [2]
-    },
-    "S07E22": {
-      "episode_name": "Requiem",
-      "tags": [1]
-    }
+    "episode_name": "Ghost in the Machine",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E07",
+    "id": 6
   },
   {
-    "S08E01": {
-      "episode_name": "Within",
-      "tags": [1]
-    },
-    "S08E02": {
-      "episode_name": "Without",
-      "tags": [1]
-    },
-    "S08E03": {
-      "episode_name": "Patience",
-      "tags": [2]
-    },
-    "S08E04": {
-      "episode_name": "Roadrunners",
-      "tags": [2]
-    },
-    "S08E05": {
-      "episode_name": "Invocation",
-      "tags": [2]
-    },
-    "S08E06": {
-      "episode_name": "Redrum",
-      "tags": [2]
-    },
-    "S08E07": {
-      "episode_name": "Via Negativa",
-      "tags": [2]
-    },
-    "S08E08": {
-      "episode_name": "Surekill",
-      "tags": [2]
-    },
-    "S08E09": {
-      "episode_name": "Salvage",
-      "tags": [2]
-    },
-    "S08E10": {
-      "episode_name": "Badlaa",
-      "tags": [2]
-    },
-    "S08E11": {
-      "episode_name": "The Gift",
-      "tags": [1]
-    },
-    "S08E12": {
-      "episode_name": "Medusa",
-      "tags": [2]
-    },
-    "S08E13": {
-      "episode_name": "Per Manum",
-      "tags": [1]
-    },
-    "S08E14": {
-      "episode_name": "This Is Not Happening",
-      "tags": [1]
-    },
-    "S08E15": {
-      "episode_name": "Deadalive",
-      "tags": [1]
-    },
-    "S08E16": {
-      "episode_name": "Three Words",
-      "tags": [1]
-    },
-    "S08E17": {
-      "episode_name": "Empedocles",
-      "tags": [2]
-    },
-    "S08E18": {
-      "episode_name": "Vienen",
-      "tags": [1]
-    },
-    "S08E19": {
-      "episode_name": "Alone",
-      "tags": [2]
-    },
-    "S08E20": {
-      "episode_name": "Essence",
-      "tags": [1]
-    },
-    "S08E21": {
-      "episode_name": "Existence",
-      "tags": [1]
-    }
+    "episode_name": "Ice",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E08",
+    "id": 7
   },
   {
-    "S09E01": {
-      "episode_name": "Nothing Important Happened Today",
-      "tags": [1]
-    },
-    "S09E02": {
-      "episode_name": "Nothing Important Happened Today II",
-      "tags": [1]
-    },
-    "S09E03": {
-      "episode_name": "Dæmonicus",
-      "tags": [2]
-    },
-    "S09E04": {
-      "episode_name": "4-D",
-      "tags": [2]
-    },
-    "S09E05": {
-      "episode_name": "Lord of the Flies",
-      "tags": [2]
-    },
-    "S09E06": {
-      "episode_name": "Trust No 1",
-      "tags": [1]
-    },
-    "S09E07": {
-      "episode_name": "John Doe",
-      "tags": [2]
-    },
-    "S09E08": {
-      "episode_name": "Hellbound",
-      "tags": [2]
-    },
-    "S09E09": {
-      "episode_name": "Provenance",
-      "tags": [1]
-    },
-    "S09E10": {
-      "episode_name": "Providence",
-      "tags": [1]
-    },
-    "S09E11": {
-      "episode_name": "Audrey Pauley",
-      "tags": [2]
-    },
-    "S09E12": {
-      "episode_name": "Underneath",
-      "tags": [2]
-    },
-    "S09E13": {
-      "episode_name": "Improbable",
-      "tags": [2]
-    },
-    "S09E14": {
-      "episode_name": "Scary Monsters",
-      "tags": [2]
-    },
-    "S09E15": {
-      "episode_name": "Jump the Shark",
-      "tags": [1]
-    },
-    "S09E16": {
-      "episode_name": "William",
-      "tags": [2]
-    },
-    "S09E17": {
-      "episode_name": "Release",
-      "tags": [2]
-    },
-    "S09E18": {
-      "episode_name": "Sunshine Days",
-      "tags": [2]
-    },
-    "S09E19": {
-      "episode_name": "The Truth",
-      "tags": [1]
-    }
+    "episode_name": "Space",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E09",
+    "id": 8
   },
   {
-    "S10E01": {
-      "episode_name": "My Struggle",
-      "tags": [1]
-    },
-    "S10E02": {
-      "episode_name": "Founder's Mutation",
-      "tags": [2]
-    },
-    "S10E03": {
-      "episode_name": "Mulder and Scully Meet the Were-Monster",
-      "tags": [2]
-    },
-    "S10E04": {
-      "episode_name": "Home Again",
-      "tags": [2]
-    },
-    "S10E05": {
-      "episode_name": "Babylon",
-      "tags": [2]
-    },
-    "S10E06": {
-      "episode_name": "My Struggle II",
-      "tags": [1]
-    }
+    "episode_name": "Fallen Angel",
+    "tags": [
+      1
+    ],
+    "episode_code": "S01E10",
+    "id": 9
   },
   {
-    "S11E01": {
-      "episode_name": "My Struggle III",
-      "tags": [1]
-    },
-    "S11E02": {
-      "episode_name": "This",
-      "tags": [2]
-    },
-    "S11E03": {
-      "episode_name": "Plus One",
-      "tags": [2]
-    },
-    "S11E04": {
-      "episode_name": "The Lost Art of Forehead Sweat",
-      "tags": [2]
-    },
-    "S11E05": {
-      "episode_name": "Ghouli",
-      "tags": [1]
-    },
-    "S11E06": {
-      "episode_name": "Kitten",
-      "tags": [2]
-    },
-    "S11E07": {
-      "episode_name": "Rm9sbG93ZXJz",
-      "tags": [2]
-    },
-    "S11E08": {
-      "episode_name": "Familiar",
-      "tags": [2]
-    },
-    "S11E09": {
-      "episode_name": "Nothing Lasts Forever",
-      "tags": [2]
-    },
-    "S11E10": {
-      "episode_name": "My Struggle IV",
-      "tags": [1]
-    }
+    "episode_name": "Eve",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E11",
+    "id": 10
+  },
+  {
+    "episode_name": "Fire",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E12",
+    "id": 11
+  },
+  {
+    "episode_name": "Beyond the Sea",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E13",
+    "id": 12
+  },
+  {
+    "episode_name": "Gender Bender",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E14",
+    "id": 13
+  },
+  {
+    "episode_name": "Lazarus",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E15",
+    "id": 14
+  },
+  {
+    "episode_name": "Young at Heart",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E16",
+    "id": 15
+  },
+  {
+    "episode_name": "E.B.E.",
+    "tags": [
+      1
+    ],
+    "episode_code": "S01E17",
+    "id": 16
+  },
+  {
+    "episode_name": "Miracle Man",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E18",
+    "id": 17
+  },
+  {
+    "episode_name": "Shapes",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E19",
+    "id": 18
+  },
+  {
+    "episode_name": "Darkness Falls",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E20",
+    "id": 19
+  },
+  {
+    "episode_name": "Tooms",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E21",
+    "id": 20
+  },
+  {
+    "episode_name": "Born Again",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E22",
+    "id": 21
+  },
+  {
+    "episode_name": "Roland",
+    "tags": [
+      2
+    ],
+    "episode_code": "S01E23",
+    "id": 22
+  },
+  {
+    "episode_name": "The Erlenmeyer Flask",
+    "tags": [
+      1
+    ],
+    "episode_code": "S01E24",
+    "id": 23
+  },
+  {
+    "episode_name": "Little Green Men",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E01",
+    "id": 24
+  },
+  {
+    "episode_name": "The Host",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E02",
+    "id": 25
+  },
+  {
+    "episode_name": "Blood",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E03",
+    "id": 26
+  },
+  {
+    "episode_name": "Sleepless",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E04",
+    "id": 27
+  },
+  {
+    "episode_name": "Duane Barry",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E05",
+    "id": 28
+  },
+  {
+    "episode_name": "Ascension",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E06",
+    "id": 29
+  },
+  {
+    "episode_name": "3",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E07",
+    "id": 30
+  },
+  {
+    "episode_name": "One Breath",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E08",
+    "id": 31
+  },
+  {
+    "episode_name": "Firewalker",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E09",
+    "id": 32
+  },
+  {
+    "episode_name": "Red Museum",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E10",
+    "id": 33
+  },
+  {
+    "episode_name": "Excelsis Dei",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E11",
+    "id": 34
+  },
+  {
+    "episode_name": "Aubrey",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E12",
+    "id": 35
+  },
+  {
+    "episode_name": "Irresistible",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E13",
+    "id": 36
+  },
+  {
+    "episode_name": "Die Hand Die Verletzt",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E14",
+    "id": 37
+  },
+  {
+    "episode_name": "Fresh Bones",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E15",
+    "id": 38
+  },
+  {
+    "episode_name": "Colony",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E16",
+    "id": 39
+  },
+  {
+    "episode_name": "End Game",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E17",
+    "id": 40
+  },
+  {
+    "episode_name": "Fearful Symmetry",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E18",
+    "id": 41
+  },
+  {
+    "episode_name": "Død Kalm",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E19",
+    "id": 42
+  },
+  {
+    "episode_name": "Humbug",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E20",
+    "id": 43
+  },
+  {
+    "episode_name": "The Calusari",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E21",
+    "id": 44
+  },
+  {
+    "episode_name": "F. Emasculata",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E22",
+    "id": 45
+  },
+  {
+    "episode_name": "Soft Light",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E23",
+    "id": 46
+  },
+  {
+    "episode_name": "Our Town",
+    "tags": [
+      2
+    ],
+    "episode_code": "S02E24",
+    "id": 47
+  },
+  {
+    "episode_name": "Anasazi",
+    "tags": [
+      1
+    ],
+    "episode_code": "S02E25",
+    "id": 48
+  },
+  {
+    "episode_name": "The Blessing Way",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E01",
+    "id": 49
+  },
+  {
+    "episode_name": "Paper Clip",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E02",
+    "id": 50
+  },
+  {
+    "episode_name": "D.P.O.",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E03",
+    "id": 51
+  },
+  {
+    "episode_name": "Clyde Bruckman's Final Repose",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E04",
+    "id": 52
+  },
+  {
+    "episode_name": "The List",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E05",
+    "id": 53
+  },
+  {
+    "episode_name": "2Shy",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E06",
+    "id": 54
+  },
+  {
+    "episode_name": "The Walk",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E07",
+    "id": 55
+  },
+  {
+    "episode_name": "Oubliette",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E08",
+    "id": 56
+  },
+  {
+    "episode_name": "Nisei",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E09",
+    "id": 57
+  },
+  {
+    "episode_name": "731",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E10",
+    "id": 58
+  },
+  {
+    "episode_name": "Revelations",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E11",
+    "id": 59
+  },
+  {
+    "episode_name": "War of the Coprophages",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E12",
+    "id": 60
+  },
+  {
+    "episode_name": "Syzygy",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E13",
+    "id": 61
+  },
+  {
+    "episode_name": "Grotesque",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E14",
+    "id": 62
+  },
+  {
+    "episode_name": "Piper Maru",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E15",
+    "id": 63
+  },
+  {
+    "episode_name": "Apocrypha",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E16",
+    "id": 64
+  },
+  {
+    "episode_name": "Pusher",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E17",
+    "id": 65
+  },
+  {
+    "episode_name": "Teso Dos Bichos",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E18",
+    "id": 66
+  },
+  {
+    "episode_name": "Hell Money",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E19",
+    "id": 67
+  },
+  {
+    "episode_name": "Jose Chung's From Outer Space",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E20",
+    "id": 68
+  },
+  {
+    "episode_name": "Avatar",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E21",
+    "id": 69
+  },
+  {
+    "episode_name": "Quagmire",
+    "tags": [
+      2
+    ],
+    "episode_code": "S03E22",
+    "id": 70
+  },
+  {
+    "episode_name": "Wetwired",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E23",
+    "id": 71
+  },
+  {
+    "episode_name": "Talitha Cumi",
+    "tags": [
+      1
+    ],
+    "episode_code": "S03E24",
+    "id": 72
+  },
+  {
+    "episode_name": "Herrenvolk",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E01",
+    "id": 73
+  },
+  {
+    "episode_name": "Home",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E02",
+    "id": 74
+  },
+  {
+    "episode_name": "Teliko",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E03",
+    "id": 75
+  },
+  {
+    "episode_name": "Unruhe",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E04",
+    "id": 76
+  },
+  {
+    "episode_name": "The Field Where I Died",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E05",
+    "id": 77
+  },
+  {
+    "episode_name": "Sanguinarium",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E06",
+    "id": 78
+  },
+  {
+    "episode_name": "Musings of a Cigarette Smoking Man",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E07",
+    "id": 79
+  },
+  {
+    "episode_name": "Tunguska",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E08",
+    "id": 80
+  },
+  {
+    "episode_name": "Terma",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E09",
+    "id": 81
+  },
+  {
+    "episode_name": "Paper Hearts",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E10",
+    "id": 82
+  },
+  {
+    "episode_name": "El Mundo Gira",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E11",
+    "id": 83
+  },
+  {
+    "episode_name": "Leonard Betts",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E12",
+    "id": 84
+  },
+  {
+    "episode_name": "Never Again",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E13",
+    "id": 85
+  },
+  {
+    "episode_name": "Memento Mori",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E14",
+    "id": 86
+  },
+  {
+    "episode_name": "Kaddish",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E15",
+    "id": 87
+  },
+  {
+    "episode_name": "Unrequited",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E16",
+    "id": 88
+  },
+  {
+    "episode_name": "Tempus Fugit",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E17",
+    "id": 89
+  },
+  {
+    "episode_name": "Max",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E18",
+    "id": 90
+  },
+  {
+    "episode_name": "Synchrony",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E19",
+    "id": 91
+  },
+  {
+    "episode_name": "Small Potatoes",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E20",
+    "id": 92
+  },
+  {
+    "episode_name": "Zero Sum",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E21",
+    "id": 93
+  },
+  {
+    "episode_name": "Elegy",
+    "tags": [
+      2
+    ],
+    "episode_code": "S04E22",
+    "id": 94
+  },
+  {
+    "episode_name": "Demons",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E23",
+    "id": 95
+  },
+  {
+    "episode_name": "Gethsemane",
+    "tags": [
+      1
+    ],
+    "episode_code": "S04E24",
+    "id": 96
+  },
+  {
+    "episode_name": "Redux",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E01",
+    "id": 97
+  },
+  {
+    "episode_name": "Redux II",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E02",
+    "id": 98
+  },
+  {
+    "episode_name": "Unusual Suspects",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E03",
+    "id": 99
+  },
+  {
+    "episode_name": "Detour",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E04",
+    "id": 100
+  },
+  {
+    "episode_name": "The Post-Modern Prometheus",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E05",
+    "id": 101
+  },
+  {
+    "episode_name": "Christmas Carol",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E006",
+    "id": 102
+  },
+  {
+    "episode_name": "Emily",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E07",
+    "id": 103
+  },
+  {
+    "episode_name": "Kitsunegari",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E08",
+    "id": 104
+  },
+  {
+    "episode_name": "Schizogeny",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E09",
+    "id": 105
+  },
+  {
+    "episode_name": "Chinga",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E10",
+    "id": 106
+  },
+  {
+    "episode_name": "Kill Switch",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E11",
+    "id": 107
+  },
+  {
+    "episode_name": "Bad Blood",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E12",
+    "id": 108
+  },
+  {
+    "episode_name": "Patient X",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E13",
+    "id": 109
+  },
+  {
+    "episode_name": "The Red and the Black",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E14",
+    "id": 110
+  },
+  {
+    "episode_name": "Travelers",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E15",
+    "id": 111
+  },
+  {
+    "episode_name": "Mind's Eye",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E16",
+    "id": 112
+  },
+  {
+    "episode_name": "All Souls",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E17",
+    "id": 113
+  },
+  {
+    "episode_name": "The Pine Bluff Variant",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E18",
+    "id": 114
+  },
+  {
+    "episode_name": "Folie à Deux",
+    "tags": [
+      2
+    ],
+    "episode_code": "S05E19",
+    "id": 115
+  },
+  {
+    "episode_name": "The End",
+    "tags": [
+      1
+    ],
+    "episode_code": "S05E20",
+    "id": 116
+  },
+  {
+    "episode_name": "The Beginning",
+    "tags": [
+      1
+    ],
+    "episode_code": "S06E01",
+    "id": 117
+  },
+  {
+    "episode_name": "Drive",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E02",
+    "id": 118
+  },
+  {
+    "episode_name": "Triangle",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E03",
+    "id": 119
+  },
+  {
+    "episode_name": "Dreamland",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E04",
+    "id": 120
+  },
+  {
+    "episode_name": "Dreamland II",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E05",
+    "id": 121
+  },
+  {
+    "episode_name": "How the Ghosts Stole Christmas",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E06",
+    "id": 122
+  },
+  {
+    "episode_name": "Terms of Endearment",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E07",
+    "id": 123
+  },
+  {
+    "episode_name": "The Rain King",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E08",
+    "id": 124
+  },
+  {
+    "episode_name": "S.R. 819",
+    "tags": [
+      1
+    ],
+    "episode_code": "S06E09",
+    "id": 125
+  },
+  {
+    "episode_name": "Tithonus",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E10",
+    "id": 126
+  },
+  {
+    "episode_name": "Two Fathers",
+    "tags": [
+      1
+    ],
+    "episode_code": "S06E11",
+    "id": 127
+  },
+  {
+    "episode_name": "One Son",
+    "tags": [
+      1
+    ],
+    "episode_code": "S06E12",
+    "id": 128
+  },
+  {
+    "episode_name": "Agua Mala",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E13",
+    "id": 129
+  },
+  {
+    "episode_name": "Monday",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E14",
+    "id": 130
+  },
+  {
+    "episode_name": "Arcadia",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E15",
+    "id": 131
+  },
+  {
+    "episode_name": "Alpha",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E16",
+    "id": 132
+  },
+  {
+    "episode_name": "Trevor",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E17",
+    "id": 133
+  },
+  {
+    "episode_name": "Milagro",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E18",
+    "id": 134
+  },
+  {
+    "episode_name": "The Unnatural",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E19",
+    "id": 135
+  },
+  {
+    "episode_name": "Three of a Kind",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E20",
+    "id": 136
+  },
+  {
+    "episode_name": "Field Trip",
+    "tags": [
+      2
+    ],
+    "episode_code": "S06E21",
+    "id": 137
+  },
+  {
+    "episode_name": "Biogenesis",
+    "tags": [
+      1
+    ],
+    "episode_code": "S06E22",
+    "id": 138
+  },
+  {
+    "episode_name": "The Sixth Extinction",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E01",
+    "id": 139
+  },
+  {
+    "episode_name": "The Sixth Extinction II: Amor Fati",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E02",
+    "id": 140
+  },
+  {
+    "episode_name": "Hungry",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E03",
+    "id": 141
+  },
+  {
+    "episode_name": "Millennium",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E04",
+    "id": 142
+  },
+  {
+    "episode_name": "Rush",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E05",
+    "id": 143
+  },
+  {
+    "episode_name": "The Goldberg Variation",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E06",
+    "id": 144
+  },
+  {
+    "episode_name": "Orison",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E07",
+    "id": 145
+  },
+  {
+    "episode_name": "The Amazing Maleeni",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E08",
+    "id": 146
+  },
+  {
+    "episode_name": "Signs and Wonders",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E09",
+    "id": 147
+  },
+  {
+    "episode_name": "Sein und Zeit",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E10",
+    "id": 148
+  },
+  {
+    "episode_name": "Closure",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E11",
+    "id": 149
+  },
+  {
+    "episode_name": "X-Cops",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E12",
+    "id": 150
+  },
+  {
+    "episode_name": "First Person Shooter",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E13",
+    "id": 151
+  },
+  {
+    "episode_name": "Theef",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E14",
+    "id": 152
+  },
+  {
+    "episode_name": "En Ami",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E15",
+    "id": 153
+  },
+  {
+    "episode_name": "Chimera",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E16",
+    "id": 154
+  },
+  {
+    "episode_name": "all things",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E17",
+    "id": 155
+  },
+  {
+    "episode_name": "Brand X",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E18",
+    "id": 156
+  },
+  {
+    "episode_name": "Hollywood A.D.",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E19",
+    "id": 157
+  },
+  {
+    "episode_name": "Fight Club",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E20",
+    "id": 158
+  },
+  {
+    "episode_name": "Je Souhaite",
+    "tags": [
+      2
+    ],
+    "episode_code": "S07E21",
+    "id": 159
+  },
+  {
+    "episode_name": "Requiem",
+    "tags": [
+      1
+    ],
+    "episode_code": "S07E22",
+    "id": 160
+  },
+  {
+    "episode_name": "Within",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E01",
+    "id": 161
+  },
+  {
+    "episode_name": "Without",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E02",
+    "id": 162
+  },
+  {
+    "episode_name": "Patience",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E03",
+    "id": 163
+  },
+  {
+    "episode_name": "Roadrunners",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E04",
+    "id": 164
+  },
+  {
+    "episode_name": "Invocation",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E05",
+    "id": 165
+  },
+  {
+    "episode_name": "Redrum",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E06",
+    "id": 166
+  },
+  {
+    "episode_name": "Via Negativa",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E07",
+    "id": 167
+  },
+  {
+    "episode_name": "Surekill",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E08",
+    "id": 168
+  },
+  {
+    "episode_name": "Salvage",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E09",
+    "id": 169
+  },
+  {
+    "episode_name": "Badlaa",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E10",
+    "id": 170
+  },
+  {
+    "episode_name": "The Gift",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E11",
+    "id": 171
+  },
+  {
+    "episode_name": "Medusa",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E12",
+    "id": 172
+  },
+  {
+    "episode_name": "Per Manum",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E13",
+    "id": 173
+  },
+  {
+    "episode_name": "This Is Not Happening",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E14",
+    "id": 174
+  },
+  {
+    "episode_name": "Deadalive",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E15",
+    "id": 175
+  },
+  {
+    "episode_name": "Three Words",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E16",
+    "id": 176
+  },
+  {
+    "episode_name": "Empedocles",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E17",
+    "id": 177
+  },
+  {
+    "episode_name": "Vienen",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E18",
+    "id": 178
+  },
+  {
+    "episode_name": "Alone",
+    "tags": [
+      2
+    ],
+    "episode_code": "S08E19",
+    "id": 179
+  },
+  {
+    "episode_name": "Essence",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E20",
+    "id": 180
+  },
+  {
+    "episode_name": "Existence",
+    "tags": [
+      1
+    ],
+    "episode_code": "S08E21",
+    "id": 181
+  },
+  {
+    "episode_name": "Nothing Important Happened Today",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E01",
+    "id": 182
+  },
+  {
+    "episode_name": "Nothing Important Happened Today II",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E02",
+    "id": 183
+  },
+  {
+    "episode_name": "Dæmonicus",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E03",
+    "id": 184
+  },
+  {
+    "episode_name": "4-D",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E04",
+    "id": 185
+  },
+  {
+    "episode_name": "Lord of the Flies",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E05",
+    "id": 186
+  },
+  {
+    "episode_name": "Trust No 1",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E06",
+    "id": 187
+  },
+  {
+    "episode_name": "John Doe",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E07",
+    "id": 188
+  },
+  {
+    "episode_name": "Hellbound",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E08",
+    "id": 189
+  },
+  {
+    "episode_name": "Provenance",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E09",
+    "id": 190
+  },
+  {
+    "episode_name": "Providence",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E10",
+    "id": 191
+  },
+  {
+    "episode_name": "Audrey Pauley",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E11",
+    "id": 192
+  },
+  {
+    "episode_name": "Underneath",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E12",
+    "id": 193
+  },
+  {
+    "episode_name": "Improbable",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E13",
+    "id": 194
+  },
+  {
+    "episode_name": "Scary Monsters",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E14",
+    "id": 195
+  },
+  {
+    "episode_name": "Jump the Shark",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E15",
+    "id": 196
+  },
+  {
+    "episode_name": "William",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E16",
+    "id": 197
+  },
+  {
+    "episode_name": "Release",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E17",
+    "id": 198
+  },
+  {
+    "episode_name": "Sunshine Days",
+    "tags": [
+      2
+    ],
+    "episode_code": "S09E18",
+    "id": 199
+  },
+  {
+    "episode_name": "The Truth",
+    "tags": [
+      1
+    ],
+    "episode_code": "S09E19",
+    "id": 200
+  },
+  {
+    "episode_name": "My Struggle",
+    "tags": [
+      1
+    ],
+    "episode_code": "S10E01",
+    "id": 201
+  },
+  {
+    "episode_name": "Founder's Mutation",
+    "tags": [
+      2
+    ],
+    "episode_code": "S10E02",
+    "id": 202
+  },
+  {
+    "episode_name": "Mulder and Scully Meet the Were-Monster",
+    "tags": [
+      2
+    ],
+    "episode_code": "S10E03",
+    "id": 203
+  },
+  {
+    "episode_name": "Home Again",
+    "tags": [
+      2
+    ],
+    "episode_code": "S10E04",
+    "id": 204
+  },
+  {
+    "episode_name": "Babylon",
+    "tags": [
+      2
+    ],
+    "episode_code": "S10E05",
+    "id": 205
+  },
+  {
+    "episode_name": "My Struggle II",
+    "tags": [
+      1
+    ],
+    "episode_code": "S10E06",
+    "id": 206
+  },
+  {
+    "episode_name": "My Struggle III",
+    "tags": [
+      1
+    ],
+    "episode_code": "S11E01",
+    "id": 207
+  },
+  {
+    "episode_name": "This",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E02",
+    "id": 208
+  },
+  {
+    "episode_name": "Plus One",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E03",
+    "id": 209
+  },
+  {
+    "episode_name": "The Lost Art of Forehead Sweat",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E04",
+    "id": 210
+  },
+  {
+    "episode_name": "Ghouli",
+    "tags": [
+      1
+    ],
+    "episode_code": "S11E05",
+    "id": 211
+  },
+  {
+    "episode_name": "Kitten",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E06",
+    "id": 212
+  },
+  {
+    "episode_name": "Rm9sbG93ZXJz",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E07",
+    "id": 213
+  },
+  {
+    "episode_name": "Familiar",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E08",
+    "id": 214
+  },
+  {
+    "episode_name": "Nothing Lasts Forever",
+    "tags": [
+      2
+    ],
+    "episode_code": "S11E09",
+    "id": 215
+  },
+  {
+    "episode_name": "My Struggle IV",
+    "tags": [
+      1
+    ],
+    "episode_code": "S11E10",
+    "id": 216
   }
 ]
