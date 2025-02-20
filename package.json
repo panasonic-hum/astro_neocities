@@ -10,11 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/node": "^8.3.4",
-    "@astrojs/rss": "^4.0.9",
+    "@astrojs/node": "^9.1.0",
+    "@astrojs/rss": "^4.0.11",
     "@fontsource/fira-mono": "^5.0.12",
     "@iconify-json/tabler": "^1.1.116",
-    "astro": "^4.16.7",
+    "astro": "^5.3.0",
     "astro-icon": "^1.1.0",
     "postcss-preset-env": "^9.5.2"
   },
